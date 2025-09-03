@@ -51,13 +51,13 @@ export const products = [{
     price: 1399
 },
 {
-    id : 'Rupenzaltik',
+    id : 'Rupenzalring',
     img : "images/Rupenzal-Ring.png",
     name: 'Rupenzal Inspired Ring',
     price: 699
 },
 {
-    id : 'Rupenzaltik',
+    id : 'Rupenzaltiara',
     img : "images/Rupenzal-Tiara.png",
     name: 'Rupenzal Inspired Tiara',
     price: 6799
@@ -67,12 +67,12 @@ export const products = [{
     name: 'Elsa Inspired Pendant',
     price: 1499
 },{
-    id : 'elsatik',
+    id : 'elsaring',
     img : "images/Elsa-Ring.png",
     name: 'Elsa Inspired Ring',
     price: 899
 },{
-    id : 'elsatik',
+    id : 'elsatiara',
     img : "images/Elsa-Tiara.png",
     name: 'Elsa Inspired Tiara',
     price: 5799
@@ -83,12 +83,12 @@ export const products = [{
     name: 'Jasmine Inspired Pendant',
     price: 1199
 },{
-    id : 'jasminetik',
+    id : 'jasminering',
     img : "images/jasmine-Ring.png",
     name: 'Jasmine Inspired Ring',
     price: 699
 },{
-    id : 'jasminetik',
+    id : 'jasminetiara',
     img : "images/jasmine-Tiara.png",
     name: 'Jasmine Inspired Tiara',
     price: 6799
@@ -100,13 +100,13 @@ export const products = [{
     price: 1399
 },
 {
-    id : 'sleepingbeautytik',
+    id : 'sleepingbeautyring',
     img : "images/SleepingBeauty-Ring.png",
     name: 'Sleeping Beauty Inspired Ring',
     price: 879
 },
 {
-    id : 'sleepingbeautytik',
+    id : 'sleepingbeautytiara',
     img : "images/SleepingBeauty-Tiara.png",
     name: 'Sleeping Beauty Inspired Tiara',
     price: 7399
@@ -117,14 +117,14 @@ export const products = [{
     name: 'Cinderella Inspired Pendant',
     price: 1299
 },{
-    id : 'cinderellatik',
+    id : 'cinderellaring',
     img : "images/Cinderella-Ring.png",
     name: 'Cinderella Inspired Ring',
     price: 799
 },{
-    id : 'cinderellatik',
+    id : 'cinderellatiara',
     img : "images/Cinderella-Tiara.png",
     name: 'Cinderella Inspired Tiara',
     price: 6799
-},
+}
 ];
