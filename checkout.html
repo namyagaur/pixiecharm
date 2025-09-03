@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout - JewelAura</title>
+  <link rel="stylesheet" href="styles/checkout.css">
+</head>
+<body>
+    
+  <header>
+  <a href="homepage.html" class="logo">PixieCharm <a>
+  
+  <div class="nav-actions">
+    <form class="search-bar">
+      <input type="text" placeholder="Search jewels...">
+      <button type="submit">🔍</button>
+    </form>
+    
+  </div>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Shop</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+      <a href="checkout.html" id="cart-btn">🛒</a>
+
+    </ul>
+    
+  </nav>
+
+</header>
+  <div class="hero">
+    <h1>Discover Your Inner Royalty</h1>
+    <p>Elegant jewelry inspired by fairy tales</p>
+  </div>
+    <main class="checkout-container">
+
+    <!-- Left: Product Summary -->
+    <div class="cart-items"></div>
+
+
+    <!-- Right: Order Summary -->
+    <aside class="order-summary">
+      <h2>Order Summary</h2>
+      <div class="summary-details">
+        <p>Subtotal: <span id="subtotal">$370</span></p>
+        <p>Tax (5%): <span id="tax">$18.50</span></p>
+        <p>Delivery: <span id="delivery-cost">$0</span></p>
+        <p><strong>Total: <span id="total">$388.50</span></strong></p>
+      </div>
+
+      <!-- Delivery Options -->
+      <div class="delivery-options">
+        <h3>Choose Delivery</h3>
+        <label>
+          <input type="radio" name="delivery" value="0" checked> Standard (Free) 
+        </label>
+        <label>
+          <input type="radio" name="delivery" value="50"> Express (₹50)
+        </label>
+        <label>
+          <input type="radio" name="delivery" value="100"> Premium (₹100)
+        </label>
+
+        <h3 class="DelDate">Delivery Date : -- -- -- </h3>
+      </div>
+
+      <button class="checkout-btn">Proceed to Checkout</button>
+    </aside>
+
+  </main>
+
+  <script type="module" src="scripts/checkout.js" defer></script>
+</body>
+</html>

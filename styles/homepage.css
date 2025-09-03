@@ -1,0 +1,192 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff6f0; /* soft warm background */
+  color: #4b2e2e;      /* deep brown/red text for elegance */
+  line-height: 1.5;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5%;
+  background: rgba(255, 240, 220, 0.85); /* warm goldish blur */
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid rgba(212, 140, 63, 0.3);
+  box-shadow: 0 2px 12px rgba(212, 140, 63, 0.1);
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: #b11226; /* rich deep red */
+  letter-spacing: 1px;
+}
+
+/* Nav Links */
+nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #4b2e2e;
+  font-weight: 500;
+  position: relative;
+  transition: 0.3s;
+}
+
+nav ul li a::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: #b11226;
+  transition: 0.3s;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
+
+/* Search Bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 230, 180, 0.8); /* soft gold */
+  border-radius: 25px;
+  padding: 0.2rem 0.5rem;
+  backdrop-filter: blur(6px);
+}
+
+.search-bar input {
+  flex: 1;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 25px 0 0 25px;
+  outline: none;
+  background: transparent;
+  color: #4b2e2e;
+}
+
+.search-bar button {
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0 25px 25px 0;
+  background: #b11226;
+  color: #fff0d6;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.search-bar button:hover {
+  background: #8c0e1a;
+}
+
+/* Cart Button */
+#cart-btn {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #b11226;
+  transition: transform 0.3s;
+}
+
+#cart-btn:hover {
+  transform: scale(1.2);
+  color: #d6336c;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #ffd27f, #b11226); /* gold to deep red */
+  color: #fff8e1;
+}
+
+/* Products Grid */
+.products {
+  padding: 3rem 5%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  background-color: #fff4eb;
+}
+
+.product {
+  background-color: #fff0d6;
+  border: 1px solid #d4a03f;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.product h3 {
+  color: #b11226;
+  margin-bottom: 0.5rem;
+}
+
+.product p {
+  color: #4b2e2e;
+  margin-bottom: 1rem;
+}
+
+.product .add-to-cart {
+  background-color: #b11226;
+  color: #fff8e1;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.product .add-to-cart:hover {
+  background-color: #8c0e1a;
+}
+
+/* Cart Tooltip */
+.product .added-tooltip {
+  background-color: #b11226;
+  color: #fff8e1;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #4b2e2e;
+  color: #ffd27f;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  nav ul {
+    display: none; /* can add hamburger menu later */
+  }
+  header {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+}
