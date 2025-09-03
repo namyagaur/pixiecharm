@@ -79,17 +79,17 @@ export const products = [{
 },
 {
     id : 'jasminetik',
-    img : "images/jasmine.png",
+    img : "images/Jasmine.png",
     name: 'Jasmine Inspired Pendant',
     price: 1199
 },{
     id : 'jasminering',
-    img : "images/jasmine-Ring.png",
+    img : "images/Jasmine-Ring.png",
     name: 'Jasmine Inspired Ring',
     price: 699
 },{
     id : 'jasminetiara',
-    img : "images/jasmine-Tiara.png",
+    img : "images/Jasmine-Tiara.png",
     name: 'Jasmine Inspired Tiara',
     price: 6799
 },
