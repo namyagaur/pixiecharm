@@ -10,7 +10,6 @@ import { saveCart } from "../data/cart.js";
     let productHtml = '';
 products.forEach((product)=>{
     
-
     productHtml+=
             `<div class="product"  data-id=${product.id}>
                 <img src="${product.img}" alt="${product.name}">
