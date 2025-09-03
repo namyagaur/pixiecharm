@@ -27,8 +27,8 @@ export const products = [{
 },
 {
     id : 'jasminetik',
-    img : "images/jasmine.png",
-    name: 'Jasime Inspired Pendant',
+    img : "images/Jasmine.png",
+    name: 'Jasmine Inspired Pendant',
     price: 1199
 },
 {
